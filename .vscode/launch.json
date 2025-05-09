@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "cal",
+            "request": "launch",
+            "mainClass": "com.eliteWave.cal",
+            "projectName": "Crud"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CrudApplication<Crud>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.eliteWave.Crud.CrudApplication",
+            "projectName": "Crud",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
