@@ -27,9 +27,11 @@ public class Student {
     @Size(min = 2, max = 30, message = "Name must be 2-30 characters")
     @Column(name = "name", nullable = false)
     private String name;
+
     @Email(regexp = "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,3}")
     @Column(name = "email", nullable = false)
     private String email;
+
     @Min(value = 1, message = "Age must be greater than 0")
     @Column(name = "age", nullable = false)
     private int age;
